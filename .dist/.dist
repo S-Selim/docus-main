@@ -1,0 +1,14 @@
+generate: {
+  dir: "my-site";
+}
+generate: {
+  subFolders: false;
+}
+export default {
+  generate: {
+    fallback: "404.html",
+  },
+};
+generate: {
+  exclude: [/admin/];
+}
